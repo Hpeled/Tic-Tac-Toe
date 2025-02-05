@@ -78,11 +78,11 @@ h1 {
 
 .players-container {
   display: flex;
-  justify-content: space-between; /* מסדר את השחקנים אחד בצד שמאל ואחד בצד ימין */
+  justify-content: space-between;
   align-items: center;
   gap: ;
   width: 100%;
-  max-width: 90%; /* אפשר לשנות לפי גודל הלוח */
+  max-width: 90%;
   margin: 20px auto;
 }
 
@@ -114,4 +114,5 @@ h1 {
 img {
   width: 30px;
   height: 30px;
+  display: block;
 }
