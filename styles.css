@@ -24,10 +24,10 @@ body {
 .notch {
   width: 150px;
   height: 30px;
-  background: black;
+  background: rgb(0, 0, 0);
   border-radius: 20px;
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -80,7 +80,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: ;
+  gap: 5px;
   width: 100%;
   max-width: 90%;
   margin: 20px auto;
